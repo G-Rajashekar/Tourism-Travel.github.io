@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.food-munch-logo {
+    height: 70px;
+    width: 80px;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "roboto";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "roboto";
+}
+
+#navItem5 {
+    color: #323f4b;
+    font-family: "roboto";
+}
+
+#navItem6 {
+    color: #323f4b;
+    font-family: "roboto";
+}
+
+.banner-section-bg-container {
+    background-image: url("https://img.freepik.com/free-photo/travel-concept-with-landmarks_23-2149153256.jpg?t=st=1710447354~exp=1710450954~hmac=59ada222e549ef5de169054cb6fd989dc3c77f20298e1adf0440b5b5f944a321&w=1380");
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: white;
+    font-size: 45px;
+    font-family: "roboto";
+    font-weight:bold;
+}
+
+.banner-caption {
+    color: #f5f7fa;
+    font-size: 24px;
+    font-familY: "roboto";
+}
+
+.custom-button {
+    color:white;
+    background-color:blue;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.custom-outline-button {
+    color: #d0b200;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+}
+
+.explore-menu-section {
+    background-color: white;
+}
+
+.menu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.menu-item-card {
+    border-radius: 16px;
+}
+
+.menu-item-image {
+    border-radius: 16px;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
+  label,
+  input,
+  button {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"],
+  button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="date"]:focus,
+  input[type="number"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+}
+.wcu-section {
+    background-color: #f9fbfe;
+}
+
+.wcu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.wcu-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+}
+
+.wcu-card-image {
+    height: 70px;
+    width: 80px;
+}
+
+.wcu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.wcu-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+}
